@@ -1,3 +1,12 @@
+:root {
+  font-size: 16px; /* utilizado nas medidas de rem */
+}
+
+@media (max-width: 1028px) {
+  :root {
+    font-size: 12px;
+  }
+}
 
 /* header styles */
 header {
@@ -75,4 +84,58 @@ header .logout-container {
 header .logout-container img {
   width: 34px;
   height: 34px;
+}
+
+
+@media (max-width: 1028px) {
+  header {
+    flex-direction: row;
+    height: 100px;
+    width: 100%;
+    justify-content: space-between;
+    position: sticky;
+    bottom: 0;
+  }
+
+  header .logo-container {
+    align-items: center;
+  }
+
+  header .logo-container img {
+    width: 22px;
+    height: 22px;
+  }
+
+  nav {
+    padding-top: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  nav .nav-item {
+    margin-bottom: 0;
+  }
+
+  nav .nav-item.active {
+    margin-left: 0;
+    background-color: initial;
+    padding: 0;
+    justify-content: flex-start;
+  }
+
+  nav .nav-item .nav-img-container img {
+    width: 22px;
+    height: 22px;
+  }
+
+  header .logout-container {
+    padding: 10px;
+    margin: 20px 13px;
+  }
+
+  header .logout-container img {
+    width: 22px;
+    height: 22px;
+  }
+
 }
