@@ -58,17 +58,6 @@ main .category-videos .videos-carousel {
   overflow-x: auto;
 }
 
-main .category-videos .videos-subtitle {
-  color: red;
-}
-
-main .category-videos .videos-carousel img {
-  width: 300px;
-  height: 140px;
-  padding-right: 16px;
-  border-radius: 14px;
-}
-
 @media (max-width: 1028px) {
 
   #page {
