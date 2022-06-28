@@ -58,13 +58,6 @@ main .category-videos .videos-carousel {
   overflow-x: auto;
 }
 
-main .category-videos .videos-carousel img {
-  width: 320px;
-  height: 150px;
-  padding-right: 16px;
-  border-radius: 14px;
-}
-
 @media (max-width: 1028px) {
 
   #page {
