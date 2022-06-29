@@ -63,6 +63,7 @@ main .category-videos .videos-carousel {
   #page {
     position: relative;
     flex-direction: column-reverse;
+    background-color: blueviolet;
   }
 
   main {
