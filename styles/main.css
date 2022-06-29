@@ -74,6 +74,7 @@ main .category-videos .videos-carousel img {
   #page {
     position: relative;
     flex-direction: column-reverse;
+    background-color: blueviolet;
   }
 
   main {
